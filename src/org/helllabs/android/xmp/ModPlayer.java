@@ -5,6 +5,7 @@ import android.media.AudioManager;
 import android.media.AudioTrack;
 
 
+@SuppressWarnings("deprecation")
 public class ModPlayer {
 	private static ModPlayer instance = null;
 	private Xmp xmp = new Xmp();
